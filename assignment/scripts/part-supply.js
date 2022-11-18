@@ -70,7 +70,7 @@ console.log("Total Values= " + total);
 console.log('9. Filling boxes with a "while" loop');
 i = 572
 x = 7
-while( i > x ){
-    console.log(i)
-    i /= 7
-}
+var num = ~~(i / x);
+console.log( num )
+var remain = (i % x)
+console.log( remain )
